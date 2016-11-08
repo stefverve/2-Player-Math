@@ -13,6 +13,9 @@
 		E2B971941DD1104A00DA3E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B971921DD1104A00DA3E34 /* Main.storyboard */; };
 		E2B971961DD1104A00DA3E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B971951DD1104A00DA3E34 /* Assets.xcassets */; };
 		E2B971991DD1104A00DA3E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B971971DD1104A00DA3E34 /* LaunchScreen.storyboard */; };
+		E2B971A21DD12C3300DA3E34 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B971A11DD12C3300DA3E34 /* Player.m */; };
+		E2B971A51DD12C4100DA3E34 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B971A41DD12C4100DA3E34 /* GameModel.m */; };
+		E2B971A71DD1311700DA3E34 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B971A61DD1311700DA3E34 /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		E2B971951DD1104A00DA3E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B971981DD1104A00DA3E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2B9719A1DD1104A00DA3E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B971A01DD12C3300DA3E34 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		E2B971A11DD12C3300DA3E34 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		E2B971A31DD12C4100DA3E34 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		E2B971A41DD12C4100DA3E34 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		E2B971A61DD1311700DA3E34 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				E2B9718F1DD1104A00DA3E34 /* ViewController.h */,
 				E2B971901DD1104A00DA3E34 /* ViewController.m */,
 				E2B971921DD1104A00DA3E34 /* Main.storyboard */,
+				E2B971A01DD12C3300DA3E34 /* Player.h */,
+				E2B971A11DD12C3300DA3E34 /* Player.m */,
+				E2B971A31DD12C4100DA3E34 /* GameModel.h */,
+				E2B971A41DD12C4100DA3E34 /* GameModel.m */,
 				E2B971951DD1104A00DA3E34 /* Assets.xcassets */,
 				E2B971971DD1104A00DA3E34 /* LaunchScreen.storyboard */,
 				E2B9719A1DD1104A00DA3E34 /* Info.plist */,
@@ -74,6 +86,7 @@
 		E2B971891DD1104A00DA3E34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2B971A61DD1311700DA3E34 /* heart.png */,
 				E2B9718A1DD1104A00DA3E34 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B971A71DD1311700DA3E34 /* heart.png in Resources */,
 				E2B971991DD1104A00DA3E34 /* LaunchScreen.storyboard in Resources */,
 				E2B971961DD1104A00DA3E34 /* Assets.xcassets in Resources */,
 				E2B971941DD1104A00DA3E34 /* Main.storyboard in Resources */,
@@ -150,7 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B971A21DD12C3300DA3E34 /* Player.m in Sources */,
 				E2B971911DD1104A00DA3E34 /* ViewController.m in Sources */,
+				E2B971A51DD12C4100DA3E34 /* GameModel.m in Sources */,
 				E2B9718E1DD1104A00DA3E34 /* AppDelegate.m in Sources */,
 				E2B9718B1DD1104A00DA3E34 /* main.m in Sources */,
 			);
